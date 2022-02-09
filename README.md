@@ -69,6 +69,9 @@ Because of the unforgiving nature of smart contracts, it is crucial that a prope
 
 #### AB. Financial Governance
 
+![image](https://user-images.githubusercontent.com/16395727/153219361-4408d49b-6851-4e22-84ef-0dca569f3211.png)
+
+
 #### AC. Financial Disclosure (Communication)
 
 ### B. Governance

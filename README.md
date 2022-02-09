@@ -1,8 +1,3 @@
----
-title: 'DAO Transparency Project'
-author: LPX <lpx@shapeshift.one>
----
-
 The DAO Transparency Index (WIP)
 ===
 Measuring a Decentralized Organization's Transparency: A Proposed Framework to Develop a Transparency Index
@@ -54,16 +49,16 @@ A depiction of the proposed principles of transparency is offered in Figure 1.
 
 ![](https://i.imgur.com/atV4hjw.png)
 
-## A. Financial
+### A. Financial
 
-**Tokenomics: Smart Contract Level**
+#### **Tokenomics: Smart Contract Level**
 
 | Contract| Description| Importance |
 | --------------------- | ---------------------------------------------- | ---------- |
 | **ERC20 Contract**    | Is the DAO using a standardized ERC20 implementation? If not, has the contract source been verified and viewable for the public on Etherscan or a similar service? | Critical   |
 | **Audit**    | If not using a standard ERC20 token standard (i.e. openzeppelin presets), has the contract been audited? | Critical   |
 | **Distribution**  | During the initial token mint, were the tokens distributed contractually? Are there any undisclosed wallets (not in control of the DAO) that received significant amounts?| Critical |
-| **Minting** | Can new tokens be minted at will? If so, does the minter role belong to a sole address or a governed multi-sig address? | Critical |
+| **Minting** | Can new tokens be minted at will without a cap? If so, does the minter role belong to a sole address or a governed multi-sig address? | Critical |
 | **Restriction**| Can tokens be frozen or restricted? If so, does the pauser role belong to a sole address or a governed multi-sig address? | High |
 | **Circulation & Supply Cap** | What percentage of the set max supply (if set) has been minted and is in public circulation?| High |
 | **Locked Supply** | If all tokens minted, is there a contract controlling the release of a set steady stream? If not, are the tokens not in circulation in a safe contract held by the DAO? | High |
@@ -72,21 +67,21 @@ Because of the unforgiving nature of smart contracts, it is crucial that a prope
 
 **Tokenomics: Market Data**
 
-### AB. Financial Governance
+#### AB. Financial Governance
 
-### AC. Financial Disclosure (Communication)
+#### AC. Financial Disclosure (Communication)
 
-## B. Governance
+### B. Governance
 
-### BC. Disclosure of Governance Processes and Proposals/Changes
+#### BC. Disclosure of Governance Processes and Proposals/Changes
 
-## C. Communication
+### C. Communication
 
-## Data Collection Methodology
+### Data Collection Methodology
 
-## Edge Cases and Use of a Weighted Scale
+### Edge Cases and Use of a Weighted Scale
 
-## Transparency Dashboard for DAOs and Researchers
+### Transparency Dashboard for DAOs and Researchers
 
 --- 
 

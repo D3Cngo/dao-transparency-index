@@ -56,6 +56,22 @@ A depiction of the proposed principles of transparency is offered in Figure 1.
 
 ## A. Financial
 
+**Tokenomics: Smart Contract Level**
+
+| Contract| Description| Importance |
+| --------------------- | ---------------------------------------------- | ---------- |
+| **ERC20 Contract**    | Is the DAO using a standardized ERC20 implementation? If not, has the contract source been verified and viewable for the public on Etherscan or a similar service? | Critical   |
+| **Audit**    | If not using a standard ERC20 token standard (i.e. openzeppelin presets), has the contract been audited? | Critical   |
+| **Distribution**  | During the initial token mint, were the tokens distributed contractually? Are there any undisclosed wallets (not in control of the DAO) that received significant amounts?| Critical |
+| **Minting** | Can new tokens be minted at will? If so, does the minter role belong to a sole address or a governed multi-sig address? | Critical |
+| **Restriction**| Can tokens be frozen or restricted? If so, does the pauser role belong to a sole address or a governed multi-sig address? | High |
+| **Circulation & Supply Cap** | What percentage of the set max supply (if set) has been minted and is in public circulation?| High |
+| **Locked Supply** | If all tokens minted, is there a contract controlling the release of a set steady stream? If not, are the tokens not in circulation in a safe contract held by the DAO? | High |
+
+Because of the unforgiving nature of smart contracts, it is crucial that a proper contract was used when minting or designing the release schedule of the token, and every transparency check in this section is rated critical or high. Most token mints are conducted utilizing standard, battle-tested, meticulously audited smart contract templates and interfaces provided by organizations like OpenZeppelin and ConsenSys. A non-standard ERC20 implementation may be a potential red flag and should be investigated -- however, there may be a perfectly legitimate reason for the developers' decision.
+
+**Tokenomics: Market Data**
+
 ### AB. Financial Governance
 
 ### AC. Financial Disclosure (Communication)
@@ -81,3 +97,7 @@ Apache License, Version 2.0
 ## Contributing
 
 TBA after Covalent's Challenge.
+
+## Changelog 
+
+- 0.0.1

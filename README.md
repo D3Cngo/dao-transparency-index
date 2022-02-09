@@ -1,8 +1,3 @@
----
-title: 'DAO Transparency Project'
-author: LPX <lpx@shapeshift.one>
----
-
 The DAO Transparency Index (WIP)
 ===
 Measuring a Decentralized Organization's Transparency: A Proposed Framework to Develop a Transparency Index

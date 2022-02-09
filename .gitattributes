@@ -1,0 +1,2 @@
+**/**.vue linguist-vendored
+**/**.scss linguist-vendored

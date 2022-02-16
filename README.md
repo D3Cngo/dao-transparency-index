@@ -129,7 +129,19 @@ This portion will be separated into three segments: on-chain financials, off-cha
 
 ### B. Governance
 
-#### BC. Disclosure of Governance Processes and Proposals/Changes
+This section will be filled in more in-depth at a later date. Governance is an interesting and very important topic but the current time restraints leave me no choice but to focus on development again.
+
+**Key concepts to be explored:**
+
+- The Theory of the Calculus of Voting by William H. Riker and Peter C. Ordeshook
+- The Mathematics and Statistics of Voting Power by Andrew Gelman, Jonathan N. Katz and Francis Tuerlinckx
+- Banzhaf power index vs Shapley–Shubik power index
+- Lewin's equation in what determines behavior
+- Quadratic voting
+
+To put it simply, too much concentrated power from a few holders = potentially bad. 
+
+#### BC. Consistent Governance Process and Inclusion of Stakeholders
 
 ### C. Communication
 

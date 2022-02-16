@@ -78,16 +78,28 @@ Because of the unforgiving nature of smart contracts, it is crucial that a prope
 | Token trading volume | Self-explanatory; a token's trading volume is not completely indicitive of a DAOs health or its direction. On the other hand, a TV of near-zero might be a red flag that something is awry.                                   | 2 - Low |
 
 
-
-- Token value/price over time
-- Token holder growth over time
-- Token liquidity among different networks
-- Token trading volume
-- No. of holders to governance participants
-
 #### AB. Financial Governance
 
+Financial governance refers to the way a company collects, manages, monitors and controls financial information. Financial governance includes how companies track financial transactions, manage performance and control data, compliance, operations, and disclosures[^1]. 
+
+Sounds like a perfect use-case for blockchain -- blockchain being giant, immutable, transparent ledgers. Unfortunately, at the moment it is not as simple as opening up a company ERP and querying the financial data that's needed. In fact, as the blockchain space continues to grow and evolve, it is arguable that financial transparency within the scope of DAOs, smart contracts, dApps, etc., is harder than ever for the average user. It's not as simple as tracking incoming and outgoing transactions and checking balances. Many DAOs are diversified in liquidity pools, taking out decentralized loans, participating in DAO2DAO collaborations and swaps, issuing bonds, and the list goes on and on.
+
+Even a *visual* guide of how GnosisSafe, the multisig ~~wallet~~ protocol of choice for many DAOs, utilizes smart contracts under the hood can look quite indimidating. 
+
 ![image](https://user-images.githubusercontent.com/16395727/153219361-4408d49b-6851-4e22-84ef-0dca569f3211.png)
+
+For the sake of time, I will keep this section short and to the point. The key transparency measurements will be based on the following questions:
+
+- Is the DAO's treasury secured under an audited, respected, battle-tested protocol or contract?
+- If the DAO's treasury is controlled by a multisig wallet, are there safeguards in place to allow the DAO to regain control of the treasury in a catestrophic event (death, natural disasters, alien abduction, etc)?
+- Can DAO funds be accessed via a permitted, governance approved smart contract call? (i.e. can the DAO operate without human middlemen having to sign off on governance-passed proposals and initiatives)
+- Is the DAO intentionally involved in any shady or illegal financial practices ultimately designed to benefit from others' losses?
+
+The SEC has made it clear that it will not meddle with DeFi and decentralized protocols as long as laws, which we are all fully aware of, are not broken and investors are not being punked.
+
+> I recognize it is not the SEC’s role to prevent all investment losses.  It is also not my goal to restrict investor access to fair and appropriate opportunities.  But it is my job to demand that investors have equal access to critical information so they can make informed decisions whether to invest and at what price.  I am similarly committed to ensuring markets are fair and free from manipulation. 
+
+For the first time in possibly my life, I stand by and commend the SEC for their seemingly renewed stanced and enthusiasm for the blockchain industry. I go more into the significance of this more in-depth at the [end.](#SEC-calls-for-more-transparency)
 
 
 #### AC. Financial Disclosure (Communication)
@@ -106,14 +118,52 @@ Because of the unforgiving nature of smart contracts, it is crucial that a prope
 
 --- 
 
-## License
+### SEC Calls for More Transparency
+
+
+The SEC, in a surprisingly non-threatening tone, released a statement[^2] just a few months prior in Nov. 2021:
+
+> Whether in the news, social media, popular entertainment, and increasingly in people’s portfolios, crypto is now part of the vernacular.  But what that term actually encompasses is broad and amorphous and includes everything from tokens, to non-fungible tokens, to Dexes to Decentralized Finance or DeFI. For those readers not already familiar with DeFi, unsurprisingly, definitions also vary.  In general, though, it is an effort to replicate functions of our traditional finance systems through the use of blockchain-based smart contracts that are composable, interoperable, and open source 
+
+>... DeFi presents a panoply of opportunities.  However, it also poses important risks and challenges for regulators, investors, and the financial markets.  While the potential for profits attracts attention, sometimes overwhelming attention, there is also confusion, often significant, regarding important aspects of this emerging market.
+
+>...While DeFi has produced impressive alternative methods of composing, recording, and processing transactions, it has not rewritten all of economics or human nature.  Certain truths apply with as much force in DeFi as they do in traditional finance: 
+> - Unless required, there will be projects that do not invest in compliance or adequate internal controls;
+> - when the potential financial rewards are great enough, some individuals will victimize others, and the likelihood of this occurring tends to increase as the likelihood of getting caught and severity of potential sanctions decrease; and
+> - absent mandatory disclosure requirements, information asymmetries will likely advantage rich investors and insiders at the expense of the smallest investors and those with the least access to information.
+
+While claiming to have jurisdiction over DeFi, most likely realizing that it is not something one can simply regulate, went as far to offer a hand:
+
+> As an SEC Commissioner I have a duty to help ensure that market activity, whether new or old, operates fairly, and offers all investors a level playing field.  I would expect this goal to be one DeFi market participants also support. To do this, the SEC has a variety of tools at its disposal ranging from rulemaking authority, to various exemptive or no action relief, to enforcement actions.  Importantly, if DeFi development teams are not sure whether their project is within the SEC’s jurisdiction, they should reach out to our Strategic Hub for Innovation and Financial Technology (“FinHub”), or our other Offices and Divisions, all of which have experts well-versed in issues relating to digital assets. It is my understanding that FinHub has never refused a meeting, and their engagement is meaningful.
+
+But it's not all flowers and rainbows, she did go on to say the SEC had to flex its muscles and settle an enforcement on DMM[^3] for "failing to register their offering, which raised $30 million, and misled their investors while improperly spending investor money on themselves." 
+
+People will have opinions and I might have already ruffled some feathers, but the SEC has made it crystal clear that fundraising securities on American soil and to American citizens undoubtedly illegal -- half a decade ago. In the end, they got a slap on the wrist, and was ordered to pay about half of the $30mil raised in penalties. Whether or not they were involved in fradulent activity is not for me to judge, but just as I was thinking to myself "that's why we need more transparency in the space!" lo and behold, straight from the horses mouth:
+
+> I recognize it is not the SEC’s role to prevent all investment losses.  It is also not my goal to restrict investor access to fair and appropriate opportunities.  But it is my job to demand that investors have equal access to critical information so they can make informed decisions whether to invest and at what price.  I am similarly committed to ensuring markets are fair and free from manipulation.  Given this, it seems that there are two specific structural problems that the DeFi community needs to address: Lack of Transparency and Pseudonymity.
+
+While I do not fully agree with the Pseudonymity portion, this excerpt from the Lack of Transparency section showed some level-headed thinking and rationale that I can get behind:
+
+> First, although transactions often are recorded on a public blockchain, in important ways, DeFi investing is not transparent.  I am concerned that this lack of transparency contributes to a two tier market in which professional investors and insiders reap outsized returns while retail investors take more risks, get worse pricing, and are less likely to succeed over time.  Much of DeFi is funded by venture capital and other professional investors.  It is unclear to me how well known this is in the DeFi retail investor community, but the underlying funding deals often grant professional investors equity, options, advisory roles, access to project team management, formal or informal say on governance and operations, anti-dilution rights, and the ability to distribute controlling interests to allies, among other benefits.  Rarely are these arrangements disclosed, but they can have a significant impact on investment values and outcomes.  Retail investors are already operating at a significant disadvantage to professional investors in DeFi, and this information imbalance exacerbates the problem. 
+
+> Some contend that DeFi is, in fact, more egalitarian and transparent because much of the activity is based on code that is publicly available. However, only a relatively small group of people can actually read and understand that code, and even highly-qualified experts miss flaws or hazards.  Currently the quality of that code can vary drastically, and has a significant impact on investment outcomes and security.  If DeFi has ambitions of reaching a broad investing pool, it should not assume a significant portion of that population can or wants to run their own testnet to understand the risks associated with the code on which their investment prospects rely.  It is not reasonable to build a financial system that demands investors also be sophisticated interpreters of complex code. 
+
+If I had known that the *SEC* out of all organizations had already written the beginning portion of this section, Financial Governance, I could've saved an hour with a simple copy and paste. On a more serious note, if we want true decentralization, we must take ownership and take responsibilities. And for now it appears the SEC has given the green-light to continue -- let's not screw it up. 
+
+### License
 
 Apache License, Version 2.0
  
-## Contributing
+### Contributing
 
 TBA after Covalent's Challenge.
 
 ## Changelog 
 
 - 0.0.1
+
+
+
+[^1]: Wolters Kluwer N.V. 
+[^2]: Statement on DeFi Risks, Regulations, and Opportunities: https://www.sec.gov/news/statement/crenshaw-defi-20211109#_ftn19
+[^3]: SEC Proceeding File No. 3-20453: https://www.sec.gov/litigation/admin/2021/33-10961.pdf

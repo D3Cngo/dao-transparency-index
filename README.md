@@ -53,19 +53,31 @@ A depiction of the proposed principles of transparency is offered in Figure 1.
 
 #### **Tokenomics: Smart Contract Level**
 
-| Contract| Description| Importance |
+| Contract| Description| Importance (1-5) |
 | --------------------- | ---------------------------------------------- | ---------- |
-| **ERC20 Contract**    | Is the DAO using a standardized ERC20 implementation? If not, has the contract source been verified and viewable for the public on Etherscan or a similar service? | Critical   |
-| **Audit**    | If not using a standard ERC20 token standard (i.e. openzeppelin presets), has the contract been audited? | Critical   |
-| **Distribution**  | During the initial token mint, were the tokens distributed contractually? Are there any undisclosed wallets (not in control of the DAO) that received significant amounts?| Critical |
-| **Minting** | Can new tokens be minted at will without a cap? If so, does the minter role belong to a sole address or a governed multi-sig address? | Critical |
-| **Restriction**| Can tokens be frozen or restricted? If so, does the pauser role belong to a sole address or a governed multi-sig address? | High |
-| **Circulation & Supply Cap** | What percentage of the set max supply (if set) has been minted and is in public circulation?| High |
-| **Locked Supply** | If all tokens minted, is there a contract controlling the release of a set steady stream? If not, are the tokens not in circulation in a safe contract held by the DAO? | High |
+| **ERC20 Contract**    | Is the DAO using a standardized ERC20 implementation? If not, has the contract source been verified and viewable for the public on Etherscan or a similar service? | 5 - Critical   |
+| **Audit**    | If not using a standard ERC20 token standard (i.e. openzeppelin presets), has the contract been audited? | 5 - Critical   |
+| **Distribution**  | During the initial token mint, were the tokens distributed contractually? Are there any undisclosed wallets (not in control of the DAO) that received significant amounts?| 5 - Critical |
+| **Minting** | Can new tokens be minted at will without a cap? If so, does the minter role belong to a sole address or a governed multi-sig address? | 5 - Critical |
+| **Restriction**| Can tokens be frozen or restricted? If so, does the pauser role belong to a sole address or a governed multi-sig address? | 4 - High |
+| **Circulation & Supply Cap** | What percentage of the set max supply (if set) has been minted and is in public circulation?| 4 - High |
+| **Locked Supply** | If all tokens minted, is there a contract controlling the release of a set steady stream? If not, are the tokens not in circulation in a safe contract held by the DAO? | 4 - High |
 
 Because of the unforgiving nature of smart contracts, it is crucial that a proper contract was used when minting or designing the release schedule of the token, and every transparency check in this section is rated critical or high. Most token mints are conducted utilizing standard, battle-tested, meticulously audited smart contract templates and interfaces provided by organizations like OpenZeppelin and ConsenSys. A non-standard ERC20 implementation may be a potential red flag and should be investigated -- however, there may be a perfectly legitimate reason for the developers' decision.
 
-**Tokenomics: Market Data**
+#### **Tokenomics: Market Data, Asset Performance, Sentiment**
+
+| Metric                    | Description                                  | Importance |
+| ------------------------- | -------------------------------------------- | ---------- |
+| Distribution of tokens    | Distribution of tokens -- essentially the power to influence a DAOs elections and direction -- has the potential to become a massive problem especially for DAOs that have not adopted quadratic voting. A more in-depth description will be provided in section *B - Governance.*                                  | 5 - Critical |
+| Number of token holders   | The growth or decrease in the number of token holders is a generally a good indicator of the market sentiment of the DAO. However, it is important to note that this metric is inapplicable for newer DAOs that have opted to airdrop tokens to kick off the decentralization process, for obvious reasons. Ideally, after the initial sell-off of the tokens for uninterested receipents, the number of token holders should somewhat stabilize. In cases where the DAO's governance token also serves as a utility token, a rapid or even exponential growth in the number of token holders is possible, and indicates excellent sentiment or utility.     | 4 - High |
+| Token holders to active participants ratio     | A high participation rate in the day to day operations and decisions of the DAO show that the stakeholders, regardless of how big or how small their voting influence is, is a big indicator of the DAO stakeholders' commitment to see the long-term success of the DAO. This metric should be measured in relativity to similar DAOs of similar size, as governance participation rates, understandably, been low across the board.  | 4 - High |
+| Token Liquidity   | Liquidity is an important factor to consider as it most DAOs are looking to lower the barrier to entry in the participation of their organization. Multi-chain liquidity is ideal, as it is an undeniable fact that many users become relectant to exchange assets on the Ethereum network when gas fees are on the higher side. | 3 - Medium |
+| Token Resiliency                    | It's no secret that the entire market can get extremely volatile when Bitcoin becomes moody. The correlation of price with the token and BTC is easily measurable and is useful in guaging not only the resiliency of the token and its holders, but also for getting a very primitive estimate on the influence of arbitrage bots on the token's price action (more problematic for tokens listed on CEXs).         | 2 - Low |
+| Token value/price over time           | Asset performance and price movement is absolutely important to many, but for the most part short term price action has shown the industry many times that it is not a reliable indicator of a project's health. The performance is also relative to each holder -- some may be up 30,000% while others are holding at a 50% loss. However, if a token has been on a downtrend for a prolonged period of time -- especially during a bull market -- then it is something definitely worth investigating. | 2 - Low |
+| Token trading volume | Self-explanatory; a token's trading volume is not completely indicitive of a DAOs health or its direction. On the other hand, a TV of near-zero might be a red flag that something is awry.                                   | 2 - Low |
+
+
 
 #### AB. Financial Governance
 

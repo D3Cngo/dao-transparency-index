@@ -1,0 +1,8 @@
+{
+  "devDependencies": {},
+  "dependencies": {
+    "@nuxt/content": "^1.15.1",
+    "@nuxt/http": "^0.6.4",
+    "nuxt-supabase": "^2.2.1"
+  }
+}

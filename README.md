@@ -102,13 +102,38 @@ The SEC has made it clear that it will not meddle with DeFi and decentralized pr
 For the first time in possibly my life, I stand by and commend the SEC for their seemingly renewed stanced and enthusiasm for the blockchain industry. I go more into the significance of this more in-depth at the [end.](#SEC-calls-for-more-transparency)
 
 
-#### AC. Financial Disclosure (Communication)
+#### AC. Financial Disclosure
+
+This portion will be separated into three segments: on-chain financials, off-chain financials, and proactive disclosure reports.
+
+**On-Chain**
+
+- Can the DAOs financial holdings, assets, and debts be easily queried?
+- Are all DAO holdings, including LP tokens, interest bearing assets, assets on other chains, etc., publicly known?
+- Essentially, are all DAO-owned wallets and addresses publicly known?
+- Is there a somewhat clear record of incoming transactions and outgoing transactions (cash inflow/outflow)
+- Is the DAO treasury only used for governance-passed or DAO-approved transactions?
+
+**Off-Chain** (if applicable, so far nearly all DAOs deal mostly with digital assets)
+
+- Did the DAO ever receive compensation or investment from a third-party? If so, are the terms of the investment public knowledge?
+- Is the DAO committed to any deals, promises, or contract with another entity, decentralized or conventional? If so, are the terms public knowledge?
+- If the DAO is generating fiat revenue into a bank account, are third party auditors welcome for review? 
+
+**Proactiveness**
+
+- Does the DAO put in an effort to keep the stakeholders well informed of its financial health?
+- How often does the DAO put out financial reports, if any?
+- Is the DAO actively engaged in treasury and financial discussions?
+
 
 ### B. Governance
 
 #### BC. Disclosure of Governance Processes and Proposals/Changes
 
 ### C. Communication
+
+Transparency has historically been measured along two primary dimensions; one which considers the controllable factors inherent in strategic information sending to be the extent of its measurability[^4], and another that considers the duality and complexity of relationships, meaning making and understanding to be at the core of its application[^5]. Both are related, but both are very different ends to apply to the same construct.
 
 ### Data Collection Methodology
 
@@ -167,3 +192,5 @@ TBA after Covalent's Challenge.
 [^1]: Wolters Kluwer N.V. 
 [^2]: Statement on DeFi Risks, Regulations, and Opportunities: https://www.sec.gov/news/statement/crenshaw-defi-20211109#_ftn19
 [^3]: SEC Proceeding File No. 3-20453: https://www.sec.gov/litigation/admin/2021/33-10961.pdf
+[^4]: Carl E. Walsh, Journal of Money, Credit and Banking Vol. 35, No. 5 pp. 829-849
+[^5]: Mueller, Elisabeth, British Journal of Management, Towards a Theory of Network Facilitation: A Microfoundations Perspective on the Antecedents, Practices and Outcomes of Network Facilitation.

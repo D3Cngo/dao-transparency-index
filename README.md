@@ -163,12 +163,22 @@ The dashboard at its current state is pretty barebone looking on the outside, bu
 
 **Because of the time restraints I am currently stressing over,** the initial submission will use cached versions of real API calls made to awesome data providers like Covalent, Infura, Moralis, etc. Proper CORS, caching, API credentials,  CDN networks, IPFS, are all very important parts of any platform, but again, for the sake of time, the demo data will be from the folder `.static/data/mock`
 
+Although an attempt was made to keep most data points as objective as possible, there are certain data points that are simply not able to be queried, scraped, or assigned automatically through software. This in itself is not a bad thing, but prevents a large scale industry-wide scoring assignments of DAOs. 
 
-### Transparency Dashboard for DAOs and Researchers
+The dashboard was designed and being built with in mind that it should be useful for all involved parties, from DAO leaders to investors, to researchers *_*ahem*_* regulatory bodies to bounty hunters and degens.
+
+ShapeShift DAO was chosen as the DTI test guineu pig for several reasons:
+
+- It's where I am currently emplyoed full-DAO time.
+- It holds a special place in my heart as an organization that got me excited once more in the blockchain field
+- As one of the oldset blockchain organizations still in operation today, the decision to decentralize its entire operations was a bold one -- definitely not an easy feat. But somehow, we're DAOin it, and I believe that ShapeShift can be a very good case study for future entities wishing to decentralize.
+
 
 --- 
 
 ## Clarifications of this project and a Plea for Support
+
+The plans and basic work for the DAO transparency project began in mid-2021, long before the posting of the bounty by Covalent. That being said, I wnat to thank Covalent for pushing me to research the topic even further -- I truly hope that this project will continue for years to come, eolving and adapating to the inevitable changes of the landscapes. My passion and desire to continue this project has been renewed and rekindled upon reading the SEC's statement regarding DeFi and what needs to change in order for them to allow the space to grow and innovate without interference. tl;dr: contributors? yes please! Contact me as you wish. 
 
 ### SEC Calls for More Transparency
 

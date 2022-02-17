@@ -77,6 +77,7 @@ Because of the unforgiving nature of smart contracts, it is crucial that a prope
 | Token value/price over time           | Asset performance and price movement is absolutely important to many, but for the most part short term price action has shown the industry many times that it is not a reliable indicator of a project's health. The performance is also relative to each holder -- some may be up 30,000% while others are holding at a 50% loss. However, if a token has been on a downtrend for a prolonged period of time -- especially during a bull market -- then it is something definitely worth investigating. | 2 - Low |
 | Token trading volume | Self-explanatory; a token's trading volume is not completely indicitive of a DAOs health or its direction. On the other hand, a TV of near-zero might be a red flag that something is awry.                                   | 2 - Low |
 
+---
 
 #### AB. Financial Governance
 
@@ -101,6 +102,7 @@ The SEC has made it clear that it will not meddle with DeFi and decentralized pr
 
 For the first time in possibly my life, I stand by and commend the SEC for their seemingly renewed stanced and enthusiasm for the blockchain industry. I go more into the significance of this more in-depth at the [end.](#SEC-calls-for-more-transparency)
 
+---
 
 #### AC. Financial Disclosure
 
@@ -126,6 +128,7 @@ This portion will be separated into three segments: on-chain financials, off-cha
 - How often does the DAO put out financial reports, if any?
 - Is the DAO actively engaged in treasury and financial discussions?
 
+---
 
 ### B. Governance
 
@@ -143,17 +146,29 @@ To put it simply, too much concentrated power from a few holders = potentially b
 
 #### BC. Consistent Governance Process and Inclusion of Stakeholders
 
+##### Edge Cases and Use of a Weighted Scale
+
+
 ### C. Communication
 
 Transparency has historically been measured along two primary dimensions; one which considers the controllable factors inherent in strategic information sending to be the extent of its measurability[^4], and another that considers the duality and complexity of relationships, meaning making and understanding to be at the core of its application[^5]. Both are related, but both are very different ends to apply to the same construct.
 
+---
+
+## The Dashboard 
+
+The dashboard at its current state is pretty barebone looking on the outside, but underneath I am putting constnat thought into the foundational structure so that any DAO can easily input, modify, remove, components and pages as they see fit. Organization is not a strong suit of mine, so I hate to admit that it did take a large portion of the development time. 
+
 ### Data Collection Methodology
 
-### Edge Cases and Use of a Weighted Scale
+**Because of the time restraints I am currently stressing over,** the initial submission will use cached versions of real API calls made to awesome data providers like Covalent, Infura, Moralis, etc. Proper CORS, caching, API credentials,  CDN networks, IPFS, are all very important parts of any platform, but again, for the sake of time, the demo data will be from the folder `.static/data/mock`
+
 
 ### Transparency Dashboard for DAOs and Researchers
 
 --- 
+
+## Clarifications of this project and a Plea for Support
 
 ### SEC Calls for More Transparency
 
@@ -197,7 +212,9 @@ TBA after Covalent's Challenge.
 
 ## Changelog 
 
-- 0.0.1
+- 0.0.1 Initial commit, a lot of internal thinking into how to proceed with this task
+- 0.0.2 Boilerplate Nuxt/VueJS dashboard ready and organized for anyone to deploy (client side and SSR both supported)
+- 0.0.3 Integration of both Bootstrap and TailwindCSS for future users to select, or even use both at the same time. 
 
 
 

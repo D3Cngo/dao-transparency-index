@@ -233,3 +233,7 @@ TBA after Covalent's Challenge.
 [^3]: SEC Proceeding File No. 3-20453: https://www.sec.gov/litigation/admin/2021/33-10961.pdf
 [^4]: Carl E. Walsh, Journal of Money, Credit and Banking Vol. 35, No. 5 pp. 829-849
 [^5]: Mueller, Elisabeth, British Journal of Management, Towards a Theory of Network Facilitation: A Microfoundations Perspective on the Antecedents, Practices and Outcomes of Network Facilitation.
+
+---
+
+Proud to announce that D3C has been accepted into Gitcoin's GR13 program. [Support us here!](https://gitcoin.co/grants/4836/d3-consortium-open-standards-and-resources-for-th)

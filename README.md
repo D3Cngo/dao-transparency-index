@@ -4,7 +4,7 @@ Measuring a Decentralized Organization's Transparency: A Proposed Framework to D
 
 Part of an ongoing effort to create a more transparent future at ShapeShift DAO, as well as a contribution to Covalent's DAO Transparency Dashboard challenge. Because of the time restraints of the due date for Covalents challenge, development of the MVP platform will begin right away, taking priority over the completion of this document. The core ideas are however explained and a proposed solution offered. This paper, the solutions, and methodologies are all WIP and live documents that will constantly change.
 
-![preview.png](https://gateway.pinata.cloud/ipfs/QmanaNN66fiqQkxmDdy773XRF5BhXDk8eDJdhjwVuUcuxp)
+![opengraph.png](https://gateway.pinata.cloud/ipfs/QmanaNN66fiqQkxmDdy773XRF5BhXDk8eDJdhjwVuUcuxp)
 
 **Disclaimer: this "lightpaper" is not representative of anyone or any organization's views and beliefs, except my own.**
 

@@ -225,7 +225,7 @@ TBA after Covalent's Challenge.
 - 0.0.1 Initial commit, a lot of internal thinking into how to proceed with this task
 - 0.0.2 Boilerplate Nuxt/VueJS dashboard ready and organized for anyone to deploy (client side and SSR both supported)
 - 0.0.3 Integration of both Bootstrap and TailwindCSS for future users to select, or even use both at the same time. 
-
+- 3/19/22: Big updates coming. Stay tuned.
 
 
 [^1]: Wolters Kluwer N.V. 
